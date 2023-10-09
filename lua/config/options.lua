@@ -16,8 +16,8 @@ opt.smartcase = true -- Do not ignore case if I use caps
 opt.linebreak = true -- Line break at more reasonable characters
 opt.textwidth = 0 -- Linebreak at window size, may want to change
 
--- Line Numbering - Seems to be a plugin that does this anyway?
-opt.number = false
+-- Line Numbering - Shows absolute line number instead of relative
+opt.number = true
 
 -- Tab spacing and stuff
 opt.tabstop = 4
